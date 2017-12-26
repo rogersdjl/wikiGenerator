@@ -1,4 +1,4 @@
-package csv2excel;
+package com.rrc.finance;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -35,6 +35,7 @@ public abstract class WikiGenerator {
 				"    <body class=\"mceContentBody aui-theme-default wiki-content fullsize\">"+
 				"%s</body></html>";
 	
+	private final static String WIKI_FILE_PATH = "/com/rrc/finance/wiki";
 	
 	public static WikiResult httpRequest(HttpMethod method, String url, String cookie, String json) throws JSONException, Exception {
 		if (method == null || StringUtils.isBlank(url)) {
@@ -127,7 +128,7 @@ public abstract class WikiGenerator {
 		fos.close();
 	}
 	private static InputStream getInputStreamByPath(String name) {
-		final String name2 = "/csv2excel/wiki"+name;
-		return WikiGenerator.class.getResourceAsStream(name2);
+		String path = WIKI_FILE_PATH+name;
+		return WikiGenerator.class.getResourceAsStream(path);
 	}
 }

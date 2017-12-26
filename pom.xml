@@ -1,41 +1,42 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>xin.mayday.dou</groupId>
-	<artifactId>test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.rrr.finance</groupId>
+	<artifactId>wikiGenerator</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>test</name>
+	<name>wikiGenerator</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<commons-lang3.version>3.1</commons-lang3.version>
+		<org.json.version>20160810</org.json.version>
+		<guava.version>23.5-jre</guava.version>
+		<com.github.kevinsawicki.version>6.0</com.github.kevinsawicki.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.1</version>
-			<scope>compile</scope>
+			<version>${commons-lang3.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20160810</version>
+			<version>${org.json.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.github.kevinsawicki</groupId>
 			<artifactId>http-request</artifactId>
-			<version>6.0</version>
+			<version>${com.github.kevinsawicki.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>23.5-jre</version>
+			<version>${guava.version}</version>
 		</dependency>
-
 	</dependencies>
 </project>
