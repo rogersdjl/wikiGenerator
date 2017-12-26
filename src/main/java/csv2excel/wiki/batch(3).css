@@ -1,0 +1,344 @@
+/* module-key = 'confluence.extra.jira:jirachart-resources', location = '/jirachart/jirachart.css' */
+#jira-chart .jira-chart-search{padding:10px 10px 0 10px}#jira-chart .jira-chart-search .search-help{font-size:10px}#jira-chart-content-createdvsresolved,#jira-chart-content-pie,#jira-chart-content-twodimensional{position:relative;z-index:40;height:470px;overflow:hidden;margin-top:10px}#jira-chart .jira-chart-img{margin:10px;padding:0;overflow:hidden}#chart-preview-iframe{border:0;height:375px;width:100%;margin-top:-20px}.aui-message-container{text-align:left}.jira-chart-macro-wrapper .info,.created-vs-resolved-info,.jira-chart-macro-preview-container{text-align:center}.jira-chart-macro-img,.jira-chart-macro-img-created-vs-resolved{display:block;margin-left:auto;margin-right:auto}.jira-chart-macro-wrapper,.jira-chart-macro-wrapper-created-vs-resolved{padding:10px 0;display:inline-block}.jira-chart-macro-wrapper .info a{text-decoration:none}#jira-chart-macro-preview-contaier .aui-message{margin-top:-20px;margin-left:-19px;margin-right:-19px}#jira-chart .jira-chart-search-input.one-server{display:inline-block;width:535px}#jira-chart .jira-chart-option{background:none repeat scroll 0 0 #fff;border-top:1px solid #ccc;position:absolute;width:100%;z-index:50}#jira-chart a.jirachart-display-opts-open,#jira-chart a.jirachart-display-opts-close{font-size:14px;line-height:27px}#jira-chart a.jirachart-display-opts-open.disabled{opacity:.5;text-decoration:none;cursor:help;color:#838383}#jira-chart .dialog-panel-body{padding:0!important}#jira-chart .jira-chart-img .jira-chart-macro-img{text-align:center;padding-top:2px;height:375px;overflow:auto}#jira-chart .jira-chart-img .aui-message-container{margin:0 10px}.jira-chart-search-input{display:inline-block;width:380px}#jira-chart-servers.select{margin:0 8px 1px;padding-top:5px;max-width:125px}#jira-chart .jirachart-border{border:1px solid #ccc}#jira-chart .display-option-icon{width:15px;height:15px;display:inline-block;vertical-align:middle;margin:0 5px 3px 0}#jira-chart .jirachart-display-opts-close .display-option-icon{background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/5.6.2/_/download/resources/confluence.extra.jira:jirachart-resources/icon-expand-view-down.png) no-repeat}#jira-chart .jirachart-display-opts-open .display-option-icon{background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/5.6.2/_/download/resources/confluence.extra.jira:jirachart-resources/icon-expand-view-up.png) no-repeat}#jira-chart .loading-data{margin-left:250px;margin-top:60px}#jira-chart .moreToCome{padding-left:10px}#jira-chart .dialog-page-menu li button::-moz-focus-inner{margin:0;padding:0}#jira-chart-search-input.one-server.long-field{max-width:525px}#jira-chart-search-input.search-text{max-width:390px}#jira-chart .jiraChartOption{padding:8px 10px}#jira-chart .button-panel-button.disabled{background:linear-gradient(to bottom,#fff 0,#f2f2f2 100%) repeat scroll 0 0 rgba(0,0,0,0);border-color:#ccc;box-shadow:none;color:#999;cursor:default;text-shadow:none}.jirachart-border .jira-chart-macro-img{padding:1px;border:1px solid #CCC}.jira-chart-search-input.one-server{display:inline-block;width:535px}#jira-chart .help-aligment{margin-left:10px;cursor:pointer}.two-dimensional-chart,.two-dimensional-chart-module{display:inline-block}.two-dimensional-chart .chart-border{border:1px solid #CCC;padding:5px;display:inline-block}.two-dimensional-chart.view-mode{max-width:99%;overflow:auto}.two-dimensional-chart.preview-mode a,.two-dimensional-chart.preview-mode a:hover{cursor:default;text-decoration:none;color:#333!important}.two-dimensional-chart-table{border-collapse:collapse}.two-dimensional-chart-table th{background-color:#f5f5f5;text-align:left;vertical-align:bottom}.two-dimensional-chart-table td,.two-dimensional-chart-table th{border:1px solid #ccc;padding:4px}.two-dimensional-chart-table .totals{background-color:#f5f5f5;font-weight:700}.two-dimensional-chart-table .jira-issue-status-icon{vertical-align:middle}.two-dimensional-chart .gadget_image img{border:0 none;float:left;margin-right:4px;padding-top:2px}.two-dimensional-chart .default_image{background-position:4px 50%;background-repeat:no-repeat;padding-left:2em}.two-dimensional-chart .default_image_component{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAAAAAAAAAAAAAAAAAAAAAAAAAAAACyF7fRAAAACHRSTlMAETNmd4jd7og4lAUAAAAbdEVYdGppcmEtc3lzdGVtLWltYWdlLXR5cGUAaWNvbroqOUUAAAB2SURBVHjaY2YAATXeD8weKS5/HqWoHWexrmCpeS7wX4HpL8MfpkAGxiAmoAoWAQYGESCD8c8HBoY3TCwCIv/WM/xfx3KkgmHH7Q+/HjBAzFFgYPRwYNjBAcQMzQwsDSAMMocBhJkYoABkDgMIs7AIsDKAMFwXAArdImNY1/cUAAAAAElFTkSuQmCCXyMAAAAASUVORK5CYII=)}.two-dimensional-chart .unreleased_unarchived_version{background-image:url(data:image/gif;base64,R0lGODlhEAAQAOYAAIhTAOazK82yecyZAPLp1rqHAMufPtiyVuvewK16AL6OHsmZIO3FePvIWMKjY55sDOy5P/jEUdzGn9CdEa18EOCtI7yOM+nEbcKPAPnSieGvLvrz4+DCe/3Xc9ijEplmAO+8R8mWDee0Nv3pr7aDANe6acGTRraFHqd0APvTe9SgJNasZt2qFdWsTvjQf+fSm8WSANq8eceVH/Tr1v/MZq1zAO67PdCeJrOEDfvbePe9StilGeCtKPfEWfLHcfv47ujCgua1Qr6LAO+7QOWyM8mWB45ZAMiYJs2aI/7KXsKODOOwL9mmJP/Oe+bWnPnx26l3Bf/dh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUUAFIALAAAAAAQABAAAAeegFKCg4SFhk8lFxyGhCMdKSsPEoyDKSZGRh8OCDkaG4UvQAAfKCgeEBFDCzOEBxYoCQogDREQIhU4hCpRPgYUGSLBE0IJhDc0SQ00DC4eAwMYxYNIST06ts7P0YRIEREgtjvPMMSEMiDgIkseMO0FUOY2wRo8w0IFJPCDLUpMARUVQpAYeAJBoR8xjihhUSQBjheUBBFwgENAxIuDAgEAOw==);vertical-align:middle}.two-dimensional-chart .released_unarchived_version,.two-dimensional-chart .released_archived_version,.two-dimensional-chart .unreleased_archived_version{vertical-align:middle}.two-dimensional-chart .chart-summary{float:left;padding-top:5px}.two-dimensional-chart .show-link-container{display:inline-block}.two-dimensional-chart .show-link-container a{cursor:pointer}.two-dimensional-chart .show-link-container .show-error{color:#d04437}.wiki-content .two-dimensional-chart .aui-lozenge.jira-issue-status-lozenge-green{background-color:#fff;border-color:#b2d8b9;color:#14892c}.wiki-content .two-dimensional-chart .aui-lozenge.jira-issue-status-lozenge-blue-gray{background-color:#fff;border-color:#e4e8ed;color:#4a6785}.wiki-content .two-dimensional-chart .aui-lozenge.jira-issue-status-lozenge-yellow{background-color:#fff;border-color:#ffe28c;color:#594300}
+/* module-key = 'com.atlassian.confluence.plugins.watch-button:watch-resources', location = 'css/watch.css' */
+.content-navigation .watch-menu.watching>span{background-image:url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAJFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHCCgoL////19fVwcHBwcHDPoo7sAAAADHRSTlMAESKImbvM3e7u7v97HVn+AAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAAAQUlEQVQImWNgwAdUVu9yAtHMu4HAgIGBMRrE2CrAILZ7d+X03bsTGbJ3757RuXv3NgQDLsWYDVK8TQChHWEgTgAAcnclQo9PkVIAAAAASUVORK5CYII=)}.content-navigation .watch-menu.not-watching>span{background-image:url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAe1BMVEX///9wcHCxsbFwcHBwcHBwcHCkpKShoaGdnZ2ZmZlwcHCUlJRwcHD////7+/v29vbz8/Pw8PDt7e3r6+vj4+PX19fT09PMzMzDw8O/v7++vr65ubm3t7exsbGJiYmJiYmHh4eFhYV+fn58fHx4eHh2dnZ1dXVycnJwcHBJpy62AAAAKXRSTlMAIjMzRFWZqrvMzN3d7u7u7u7u7u7u7u7u7u7u7u7u/////////////5CXlmwAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAFHRFWHRDcmVhdGlvbiBUaW1lADYvMS8xMzipRdAAAAB3SURBVBiVnY5JEoJQDEQjfAUNUSYFGYJKILn/CRV/WbLV3r2u6gHgPwUoaoLBh3fyuKZFM0jkOZ76nNU462ZcGKUiPmzChKkS9EwWAjgjOo8IqBdvbNUbgGN95MS5V6Se3iV77U9s39Jl9taUZXvXaH1MV8d+1BNKdAn6cxUraQAAAABJRU5ErkJggg==)}.cw-status{opacity:1.0;-webkit-transition:opacity 50ms linear;-moz-transition:opacity 50ms linear;-o-transition:opacity 50ms linear;transition:opacity 50ms linear}.cw-status.loading{opacity:.4}.cw-title-description{margin-top:0;margin-bottom:10px}.cw-manage-watchers-wrapper{margin-top:10px;margin-bottom:-5px}.cw-tooltip{padding-top:5px;margin-left:-20px;padding-left:20px}#cw-notification-container{position:fixed;bottom:30px;right:30px;width:300px;z-index:5}
+/* module-key = 'com.atlassian.confluence.plugins.share-page:mail-page-resources', location = 'css/mailpage.css' */
+.content-navigation .ajs-button .share>span{padding-left:0}.content-navigation .ajs-button .share>span::before{content:"\e015"}#inline-dialog-shareContentPopup .contents{overflow:visible}.share-content-popup .button-panel{text-align:right}.share-content-popup .button-panel input:disabled{color:graytext}.share-content-popup .button-panel .close-dialog{padding-left:5px}form.share-content-popup .textarea{height:100px;padding-left:3px;padding-right:3px;max-height:260px;width:250px}.share-content-popup ol.recipients{margin:7px 0 7px 0;padding:0;list-style-type:none}.share-content-popup ol.recipients li{margin:5px 0;line-height:24px;word-wrap:normal}.share-content-popup ol.recipients li .title{overflow:hidden;text-overflow:ellipsis;max-width:185px;display:inline-block;vertical-align:middle;white-space:nowrap}.share-content-popup ol.recipients li img{height:24px;width:24px;vertical-align:middle;border-radius:3px;margin-right:5px}.progress-messages{position:absolute;left:0;max-width:110px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;height:30px}.share-content-popup .done{width:16px;height:16px;top:7px;background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/3.2.0/_/download/resources/com.atlassian.confluence.plugins.share-page:mail-page-resources/images/tick.png) no-repeat}.share-content-popup .error{width:16px;height:16px;top:7px;background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/3.2.0/_/download/resources/com.atlassian.confluence.plugins.share-page:mail-page-resources/images/error.png) no-repeat}.share-content-popup .autocomplete li.active a span{color:white}.share-page-progress{position:absolute;background-color:white;z-index:1;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.share-page-progress-container-inner{position:absolute;text-align:center}.share-content-popup .remove-recipient{float:right;background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/3.2.0/_/download/resources/com.atlassian.confluence.plugins.share-page:mail-page-resources/images/delete.png) no-repeat 100% 50%;text-indent:-9999px;height:24px;width:24px;cursor:pointer}.share-content-popup .aui-dd-parent,#com-atlassian-confluence .share-content-popup .aui-dd-parent .aui-dropdown{width:250px}form.aui .share-page-progress-container-inner p{margin:0;padding-bottom:0}form.share-content-popup .field-group{padding-left:0}form.share-content-popup .field-group.button-panel{padding-bottom:0;margin-bottom:0;line-height:30px}.aui-inline-dialog .contents .share-content-popup .submit{text-align:center}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-highlight-actions:highlighting-experiment-resources', location = '/css/highlighting-experiment.css' */
+#inline-dialog-selection-action-panel>div.contents{padding:4px}#inline-dialog-selection-action-panel>div.contents .aui-button{margin-left:0}#inline-dialog-selection-action-panel .aui-button.aui-button-compact{font-size:12px;height:2.16666666666667em;padding:2px 5px;line-height:1.66666666666667}#action-dialog-target{position:absolute;z-index:-9999}#inline-dialog-selection-action-panel{-webkit-user-select:none;-moz-user-select:none;user-select:none}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources', location = 'com/atlassian/confluence/plugins/blueprints/common/common.css' */
+.wiki-content .jira-issue-status-no-lozenge {
+    color: #999999;
+}
+
+.wiki-content .aui-lozenge.jira-issue-status-lozenge-blue-gray {
+    background-color: #4a6785;
+    border-color: #4a6785;
+    color: #fff;
+}
+
+.wiki-content .aui-lozenge.jira-issue-status-lozenge-green {
+    background-color: #14892c;
+    border-color: #14892c;
+    color: #fff;
+}
+
+.wiki-content .aui-lozenge.jira-issue-status-lozenge-yellow {
+    background-color: #ffd351;
+    border-color: #ffd351;
+    color: #594300;
+}
+
+.wiki-content .aui-lozenge.jira-issue-status-lozenge-brown {
+    background-color: #815b3a;
+    border-color: #815b3a;
+    color: #fff;
+}
+
+.wiki-content .aui-lozenge.jira-issue-status-lozenge-warm-red {
+    background-color: #d04437;
+    border-color: #d04437;
+    color: #fff;
+}
+
+.wiki-content .aui-lozenge.jira-issue-status-lozenge-medium-gray {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #333;
+}
+/* module-key = 'com.atlassian.confluence.editor:editor-content-styles', location = 'com/atlassian/confluence/tinymceplugin/editor-content.css' */
+html,body.wiki-content{height:100%}html{*height:auto}html{*height:auto}body.editor-comment{height:auto;margin:0;padding:0}body.fullsize{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;border:0;padding:10px 0;margin:0 10px}html.insert-wiki-markup-dialog{height:96%}html.insert-wiki-markup-dialog,body.previewWiki{overflow:auto;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}body.wiki-content.previewWiki{background:#fff;height:100%;padding:10px}img.emoticon{vertical-align:text-bottom}#autocomplete{background-color:#eee;border:solid 1px #ddd}#autocomplete-trigger{background-color:#ddd;padding:0 2px}#autocomplete-search-text{padding:0 4px 0 2px}.mceContentBody{border:0;text-align:left;background:#fff}.mceContentBody .wysiwyg-macro-body-preformat{border:#ccc solid 1px;margin:5px 20px}.mceContentBody .wysiwyg-macro-inline{display:inline}.mceContentBody .user-new-line,.mceContentBody .wysiwyg-macro-body-newline{display:none;line-height:0}.macro span.macro-name{background-color:#f0f0f0;padding:4px;-moz-border-radius:3px;-webkit-border-radius:3px}.mceContentBody{border:0;text-align:left;background:#fff}.mceContentBody .wysiwyg-macro-body-preformat{border:#ccc solid 1px;margin:5px 20px}.mceContentBody .wysiwyg-macro-inline{display:inline}.mceContentBody .user-new-line,.mceContentBody .wysiwyg-macro-body-newline{display:none;line-height:0}.macro span.macro-name{background-color:#f0f0f0;padding:4px;-moz-border-radius:3px;-webkit-border-radius:3px}.wysiwyg-macro{background-color:#f0f0f0;background-repeat:no-repeat;background-position:0 0;border:1px solid #ddd}.wiki-content .wysiwyg-macro{width:100%;padding:24px 2px 2px 2px}.wiki-content .wysiwyg-macro-body{background-color:#fff;border:1px solid #ddd;margin:0;padding:10px}.wysiwyg-unknown-macro{vertical-align:text-bottom}p+table.wysiwyg-macro,table.wysiwyg-macro+p{margin-top:10px}.mceContentBody ol{*margin-left:40px}.mceContentBody ul{*margin-left:40px}.wiki-content .wysiwyg-macro-body>p:first-child{margin-top:0}.wiki-content .wysiwyg-macro-body>p:last-child{margin-bottom:0}.wiki-content td .wysiwyg-macro-body{min-width:200px}.wiki-content .wysiwyg-macro-body>pre{margin:0;white-space:pre-wrap;-moz-tab-size:4;-webkit-tab-size:4;-ms-tab-size:4;tab-size:4}.editor-inline-macro{background-color:#f0f0f0;border:1px solid #ddd;min-height:24px;vertical-align:text-bottom;margin:0 2px}.editor-inline-macro.with-chrome{background-repeat:no-repeat;background-position:0 0;height:auto;padding:24px 2px 2px 2px}.confluenceTh>.editor-inline-macro,.confluenceTh>.wysiwyg-unknown-macro,.confluenceTd>.editor-inline-macro,.confluenceTd>.wysiwyg-unknown-macro{vertical-align:inherit}.macro-placeholder-icon{background-image:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/5.6.5/_/download/resources/com.atlassian.confluence.editor:editor-content-styles/../../../images/icons/macrobrowser/dropdown/placeholder.png);background-repeat:no-repeat;background-position:0 3px}.image-hotswap{background-image:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/5.6.5/_/download/resources/com.atlassian.confluence.editor:editor-content-styles/../../../images/icons/wait.gif);background-repeat:no-repeat;background-position:4px 50%}table.layout,table.layout td.layout-cell{border:1px dotted #ccc}table.confluenceTable{margin-bottom:0}.wiki-content table tbody td.mceSelected{background-color:#edf5ff!important}.wiki-content table tbody td.mceSelected.highlight,.wiki-content table tbody th.mceSelected{background-color:#e0e0e0!important}.wiki-content table tbody th.mceSelected.nohighlight{background-color:#edf5ff!important}.wiki-content table tbody td.mceSelected.info,.wiki-content table tbody th.mceSelected.info,.wiki-content table tbody td.mceSelected.highlight-blue,.wiki-content table tbody th.mceSelected.highlight-blue{background-color:#d3e3f7!important}.wiki-content table tbody td.mceSelected.success,.wiki-content table tbody th.mceSelected.success,.wiki-content table tbody td.mceSelected.highlight-green,.wiki-content table tbody th.mceSelected.highlight-green{background-color:#d3f4cc!important}.wiki-content table tbody td.mceSelected.warning,.wiki-content table tbody th.mceSelected.warning,.wiki-content table tbody td.mceSelected.highlight-red,.wiki-content table tbody th.mceSelected.highlight-red{background-color:#f3dada!important}.wiki-content table tbody td.mceSelected.note,.wiki-content table tbody th.mceSelected.note,.wiki-content table tbody td.mceSelected.highlight-yellow,.wiki-content table tbody th.mceSelected.highlight-yellow{background-color:#f6f7ca!important}.wiki-content .confluence-embedded-image{cursor:default}.wiki-content .confluence-embedded-image[height]{max-width:none}.wiki-content table.wysiwyg-macro{border-collapse:separate}.wiki-content .highlight-marker{background-color:#feeecd}.wiki-content.show-eol-markup p:after,.wiki-content.show-eol-markup h1:after,.wiki-content.show-eol-markup h2:after,.wiki-content.show-eol-markup h3:after,.wiki-content.show-eol-markup h4:after,.wiki-content.show-eol-markup h5:after,.wiki-content.show-eol-markup h6:after,.wiki-content.show-eol-markup li:after{content:" \00B6";color:#777}.wiki-content table.wysiwyg-macro{*border:5px solid #f0f0f0;*background-color:#fff;*background-repeat:no-repeat;*padding:0}.wiki-content td.wysiwyg-macro-body{*background-color:transparent;*border:0;*padding:30px 6px 6px 6px}.find-current{position:relative;padding:2px;margin:-2px;background-color:#ffde00;box-shadow:0 2px 2px #ccc;-moz-box-shadow:0 2px 2px #ccc;-webkit-box-shadow:0 2px 2px #ccc;border-radius:5px}
+/* module-key = 'com.atlassian.confluence.editor:editor-content-styles', location = 'tinymce3/plugins/atlassian/plugins/iosediting/css/iosediting.css' */
+body.ios{min-height:150px}
+/* module-key = 'com.atlassian.confluence.editor:editor-content-styles', location = 'tinymce3/plugins/draggable/draggable.css' */
+table.draggable{margin-left:-10px;margin-top:-10px}table.draggable:hover>tbody>tr>td.draggable-table,table.draggable:hover>tbody>tr>td.draggable-column,table.draggable:hover>tbody>tr>td.draggable-row{background-color:#777;border-top:1px solid #777;border-left:1px solid #777}table.draggable:hover>tbody>tr>td.draggable-table,table.draggable:hover>tbody>tr>td.draggable-column{border-right:1px solid #aaa}table.draggable:hover>tbody>tr>td.draggable-table,table.draggable:hover>tbody>tr>td.draggable-row{border-bottom:1px solid #aaa}td.draggable-table,td.draggable-column,td.draggable-row{background-color:transparent;border-top:1px solid transparent;border-left:1px solid transparent;cursor:move}td.draggable-table,td.draggable-column{border-right:1px solid transparent}td.draggable-table,td.draggable-row{border-bottom:1px solid transparent}td.draggable-column{height:10px}td.draggable-row{width:10px}.wiki-content img.confluence-embedded-image,.wiki-content img.editor-inline-macro,.wiki-content table.wysiwyg-macro{cursor:move}.wiki-content table.wysiwyg-macro>tbody>tr>td.wysiwyg-macro-body{cursor:text}#move-indicator{font-weight:normal!important}
+/* module-key = 'com.atlassian.confluence.editor:editor-content-styles', location = 'tinymce3/plugins/placeholder/placeholder.css' */
+
+/* module-key = 'com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles', location = 'css/variables-editor-content.css' */
+/* For variable mark in the editor iframe */
+
+.template-variable {
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* Work around different margins for td/th without a <p> */
+th > .template-variable,
+td > .template-variable {
+    top: 1px;
+}
+
+ul[data-variable-declarations] {
+    display: none !important;
+}
+
+/* module-key = 'com.atlassian.confluence.plugins.status-macro:view_content_status', location = 'css/status-view.css' */
+.status-macro{min-width:76px;padding:2px 5px 1px 5px}
+/* module-key = 'com.atlassian.confluence.plugins.status-macro:editor_content_status', location = 'css/status-editor.less' */
+.wiki-content .aui-lozenge,
+#property-panel a.macro-property-panel-Grey span.icon {
+  color: #333333;
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+.wiki-content .aui-lozenge.aui-lozenge-subtle,
+#property-panel a.macro-property-panel-Grey span.icon.aui-lozenge-subtle {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.wiki-content .aui-lozenge-success,
+#property-panel a.macro-property-panel-Green span.icon {
+  color: #ffffff;
+  background-color: #14892c;
+  border-color: #14892c;
+}
+.wiki-content .aui-lozenge-success.aui-lozenge-subtle,
+#property-panel a.macro-property-panel-Green span.icon.aui-lozenge-subtle {
+  color: #14892c;
+  background-color: #ffffff;
+  border-color: #b2d8b9;
+}
+.wiki-content .aui-lozenge-error,
+#property-panel a.macro-property-panel-Red span.icon {
+  color: #ffffff;
+  background-color: #d04437;
+  border-color: #d04437;
+}
+.wiki-content .aui-lozenge-error.aui-lozenge-subtle,
+#property-panel a.macro-property-panel-Red span.icon.aui-lozenge-subtle {
+  color: #d04437;
+  background-color: #ffffff;
+  border-color: #f8d3d1;
+}
+.wiki-content .aui-lozenge-current,
+#property-panel a.macro-property-panel-Yellow span.icon {
+  color: #594300;
+  background-color: #ffd351;
+  border-color: #ffd351;
+}
+.wiki-content .aui-lozenge-current.aui-lozenge-subtle,
+#property-panel a.macro-property-panel-Yellow span.icon.aui-lozenge-subtle {
+  color: #594300;
+  background-color: #ffffff;
+  border-color: #ffe28c;
+}
+.wiki-content .aui-lozenge-complete,
+#property-panel a.macro-property-panel-Blue span.icon {
+  color: #ffffff;
+  background-color: #4a6785;
+  border-color: #4a6785;
+}
+.wiki-content .aui-lozenge-complete.aui-lozenge-subtle,
+#property-panel a.macro-property-panel-Blue span.icon.aui-lozenge-subtle {
+  color: #4a6785;
+  background-color: #ffffff;
+  border-color: #e4e8ed;
+}
+#property-panel a.macro-property-panel-Grey,
+#property-panel a.macro-property-panel-Green,
+#property-panel a.macro-property-panel-Red,
+#property-panel a.macro-property-panel-Yellow,
+#property-panel a.macro-property-panel-Blue,
+#property-panel a.macro-property-panel-Brown {
+  padding: 6px;
+  display: inline-block;
+}
+#property-panel a.macro-property-panel-Grey span.icon,
+#property-panel a.macro-property-panel-Green span.icon,
+#property-panel a.macro-property-panel-Red span.icon,
+#property-panel a.macro-property-panel-Yellow span.icon,
+#property-panel a.macro-property-panel-Blue span.icon,
+#property-panel a.macro-property-panel-Brown span.icon {
+  display: inline-block;
+  background-image: none;
+  margin: 0;
+  border: 0;
+  min-width: auto;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+}
+#insert-menu .macro-status .icon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB90DBgUQHra5bYQAAADGSURBVDjL7dMxSkNREIXhb967JqAWRgXBQoRgJRa6AhejnY07sHEFbsFF2Ip21hYWNtaSQjBRfMm1SWUG3EAODFMc5py/GZYKlPnONHO1u6lqU7fWScEe1lCT8HfcYoDZn+OeiLv4l/F8uCO0aUGNcTwMXGC40EDTjb2e3qsmNhK/4LlENcJ6FhCMBEKXELT4CMeXW+iniGX1++Tput+Fkvm1+iy+3s5wsEhQG7X3cnRof8p2QriCx4KbOU6mKZr5ZPpZfgK/SqI2J6AKSn8AAAAASUVORK5CYII=) no-repeat center;
+}
+.editor-inline-macro[data-macro-name='status'] {
+  background: transparent;
+  border: 0;
+  min-height: 16px;
+  margin: 0;
+  vertical-align: -4px;
+}
+#property-panel .editable.status-macro-title {
+  margin-right: 10px;
+  float: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 88px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  padding: 0 5px;
+}
+#property-panel input.editable.status-macro-title {
+  outline: none;
+  height: 30px;
+  line-height: 20px;
+  vertical-align: bottom;
+  padding-top: 2px;
+}
+
+/* module-key = 'com.atlassian.confluence.confluence-editor-hide-tools:confluence-editor-hide-tools-iframe-resources', location = '/css/editor-iframe.css' */
+body.no-tools-capable {
+    -webkit-transition: padding .3s linear;
+    -moz-transition: padding .3s linear;
+    transition: padding .3s linear;
+}
+
+body.fullsize.no-tools-enabled {
+    /* Give the user a little space to select text without triggering DFE. */
+    padding: 20px 0;
+}
+
+/* module-key = 'confluence.extra.attachments:attachments-css', location = 'templates/extra/attachments/css/attachments.less' */
+.attachments-container ul.pagination li a{text-decoration:none}.attachments-container .attachments-file-extension{margin-bottom:20px}.attachments-container .attachments-file-extension .label-filter-desc{margin-left:8px}.attachments-container .attachments-file-extension .labelFilter{margin-right:15px}.plugin_attachments_container .download-all-link{display:inline-block;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAEYi7zN3/VyoyVQAAAD1JREFUeNqNyNEKACAIQ9Fmc///ySVUUkF08cGd8p37AdILjAgAbQBVIYHigHjVjygpvdgpc6ds+0yrG35qltUBSh0GXHoAAAAASUVORK5CYII=) no-repeat left center;margin-top:10px;padding-left:20px}.plugin_attachments_container .attachment-buttons a.aui-button{color:#333}table.attachments{table-layout:fixed}table.attachments td.attachment-filesize{white-space:nowrap}table.attachments thead .expand-column{width:16px}table.attachments thead .filename-column{width:75%}table.attachments thead .modified-column{width:25%;white-space:nowrap}table.attachments tbody .filename-column{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}table.attachments th.attachments-comment{white-space:normal;width:auto}table.attachments th a:link,table.attachments th a:visited,table.attachments th a:hover,table.attachments th a:active{color:#333;text-decoration:none}table.attachments .attachment-summary-toggle{width:16px;padding-right:0;padding-left:0}table.attachments .attachment-summary-toggle .icon{cursor:pointer}.empty-attachment-table{line-height:30px}.plugin_attachments_uploadform{text-align:left;width:450px;margin-left:auto !important;margin-right:auto !important}.attachments-table-drop-zone{border-radius:10px;-moz-border-radius:10px;border:2px dashed #cccccc;height:auto;width:auto;text-align:center;padding:40px}.attachments-table-drop-zone .drop-zone-image{background-image:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/3.6.10/_/download/resources/confluence.extra.attachments:attachments-css/../../resources/confluence.extra.attachments/icons/arrow.gif);margin:-1px 5px 2px 2px;height:25px;width:25px;float:left}.attachments-table-drop-zone .drop-zone-text{display:inline-block;color:#999}.attachments-table-drop-zone .drop-zone-empty-text{color:#707070;font-weight:500;padding-bottom:10px}.empty-attachment-text{color:#707070;font-weight:bold;padding-bottom:10px;text-align:center}.attachments tbody tr.hovered{background-color:#F0F0F0}.attachments tbody tr.focused{background-color:#eaf1fd}.attachments .attachment-details-wrapper{padding-left:26px;padding-bottom:20px}.attachments .attachment-details-wrapper .attachment-labels{font-weight:bold}.attachments .attachment-details-wrapper .labels-section-content{margin-bottom:10px}.attachments .attachment-details-wrapper th,.attachments .attachment-details-wrapper td{padding-left:0}.attachments .attachment-details-wrapper .attachment-buttons{padding-top:10px}.attachments .attachment-row{border-top:1px solid #ccc;border-bottom:none}.attachments .attachment-row .attachment-comment{display:block;overflow:hidden;text-overflow:ellipsis}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent{height:18px;width:25px;position:relative}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dropdown .hide-menu{display:none}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dropdown li a span{padding-left:8px;padding-right:8px}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dd-trigger{background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/3.6.10/_/download/resources/confluence.extra.attachments:attachments-css/../../resources/confluence.extra.attachments/icons/tools_17.png) no-repeat 0 50%}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dd-trigger:hover{background-color:#3c78b5;color:#fff;cursor:pointer}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dd-trigger span,.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dd-trigger:hover span{background:url(/s/zh_CN/5638/166de1c97785b23076ca9b543dbfab25c6f13e92.1/3.6.10/_/download/resources/confluence.extra.attachments:attachments-css/../../resources/confluence.extra.attachments/icons/menu_indicator.gif) no-repeat 100% 50%;overflow:hidden;width:25px;height:18px;display:block}.attachments .attachment-row .attachment-dropdown-actions .action-dropdown .aui-dd-parent .aui-dd-trigger .hide-icons{display:none}.attachments .attachment-row .action-menu{text-align:right}.attachments .attachment-row .aui-dropdown2-trigger{color:#707070;text-decoration:none;display:none}.attachments .attachment-row .aui-icon-dropdown{border-top-color:#707070}.attachments th span.propersortedby{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKBAMAAACQ3rmwAAAAA3NCSVQICAjb4U/gAAAAHlBMVEX///9QYXNQYXNQYXNQYXNQYXNQYXNQYXNQYXNQYXOMgbQDAAAACnRSTlMAESIzRGZ3maq7ZAl7FAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAAHl0RVh0bmFtZVNldHMAeyBkZXNjcmlwdGlvbjoiRG93bmxvYWQgdGhlIFwiTmFtZWQgU2VsZWN0aW9uIFNldHNcIiBwYW5lbCBmcm9tIGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSIsIGlkOi0xLCBzZXRzOnsgIH0gfVikr5sAAAAVdEVYdENyZWF0aW9uIFRpbWUAMjkvMy8xMlxvLTUAAAAdSURBVAiZY2AIYwAB5pkOIEpiZhOIqpw5nYEUAADZjgQPuazuBAAAAABJRU5ErkJggg==);background-repeat:no-repeat;background-position:right 50%;padding-right:20px}.attachments th span.propersortedby.descending{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKBAMAAACQ3rmwAAAAA3NCSVQICAjb4U/gAAAAHlBMVEX///9QYXNQYXNQYXNQYXNQYXNQYXNQYXNQYXNQYXOMgbQDAAAACnRSTlMAESIzRGZ3maq7ZAl7FAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAAHl0RVh0bmFtZVNldHMAeyBkZXNjcmlwdGlvbjoiRG93bmxvYWQgdGhlIFwiTmFtZWQgU2VsZWN0aW9uIFNldHNcIiBwYW5lbCBmcm9tIGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSIsIGlkOi0xLCBzZXRzOnsgIH0gfVikr5sAAAAVdEVYdENyZWF0aW9uIFRpbWUAMjkvMy8xMlxvLTUAAAAdSURBVAiZY2AgGlTOnA6iNGY2giiWmQZg0VQQAQBOSAQedpgI7AAAAABJRU5ErkJggg==)}.plugin_attachments_table_container{margin-bottom:10px}.plugin_attachments_uploadwaiticon{visibility:hidden}.plugin_attachments_dropzone_uploadwaiticon{visibility:hidden}.attachment-dropdown-actions{width:30px}#aui-message-bar{position:fixed;left:50%;max-width:500px;top:10px}.attachment-image-preview>img{max-height:150px;max-width:100%}.editor-inline-macro[data-macro-name='attachments']{padding:26px 6px 6px 6px}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles', location = 'css/pagelayout/page-layout-editor-content.css' */
+.wiki-content .columnLayout {
+    border-spacing: 8px;
+}
+
+.wiki-content .header, .wiki-content .footer,
+.wiki-content .cell {
+    border: 2px dashed #ccc;
+    margin: 8px;
+    padding: 4px 8px;
+}
+
+.wiki-content .header,
+.wiki-content .header .innerCell {
+    margin-bottom: 0;
+}
+
+.wiki-content .footer,
+.wiki-content .footer .innerCell {
+    margin-top: 0;
+}
+
+.wiki-content .innerCell {
+    outline: 0px;
+    overflow: auto;
+    overflow-y: hidden;
+    height: 100%;
+}
+
+/*CONFDEV-7477 Horizontal scrollbars appear unnecessarily when inserting body macros into page layout middle cells in IE8*/
+.wiki-content .wysiwyg-macro {
+    *width: 99.46%;
+}
+
+.wiki-content .sidebars .wysiwyg-macro {
+    *width: 98.88%;
+}
+/*End CONFDEV-7477*/
+
+/* Page Layouts 2 Context menu */
+.columnLayout {
+    *margin-right: 10px;
+}
+
+.section-decorator {
+    display: table-cell;
+    width: 14px;
+    overflow: visible;
+    /* IE8 compatibility: */
+    *display: block;
+    *overflow: hidden;
+    *position: absolute;
+    *right: 0;
+}
+
+.section-decorator button {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 7px 0 7px 0;
+    text-align: center;
+    width: 14px;
+    height: 20px;
+    color: #aaa;
+    /* IE8 */
+    *padding: 0;
+}
+
+.show-property-panel .icon {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #333;
+    /* IE8 */
+    *display: inline-block;
+}
+
+.section-decorator .move-section {
+    cursor: move;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+/* Page Layouts 2 Cell Styling */
+body.mceContentBody.pl2-contextual {
+    margin: 0;
+    padding: 0;
+    /* IE8 */
+    *margin-right: 15px;
+}
+
+.wiki-content .contentLayout2 .columnLayout {
+    border-spacing: 4px 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wiki-content .contentLayout2 .cell {
+    border: 1px dashed #999;
+    border-radius: 5px;
+    /* IE8 */
+    *border: 0;
+    padding: 0px;
+}
+
+
+.wiki-content .contentLayout2 .innerCell {
+    padding: 5px;
+    min-height:20px; /* Prevents inner cell to be uneditable when there is not content */
+
+    /* Override PL2 for IE8 */
+    *border: 1px dashed #999;
+}
+
+.wiki-content .contentLayout2 .columnLayout > :first-child {
+    /* IE8 */
+    *padding-left: 0;
+}
+
+.wiki-content .contentLayout2 > :first-child {
+    margin-top: 5px;
+}
+
+/* module-key = 'com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources', location = 'com/atlassian/confluence/plugins/sharelinksurlmacro/css/sharelinks-urlmacro-editor.css' */
+.editor-inline-macro[data-macro-name='sharelinks-urlmacro']{border:0}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles', location = 'css/inline-tasks.css' */
+.shortcutsmenu ul.inline-task-list>li{padding-left:22px;background-position:0 3px;margin-left:-17px}.wiki-content ul.inline-task-list>li{list-style:none;padding-left:22px;margin-left:-22px;background-repeat:no-repeat;background-size:16px 16px;background-position:0 3px}.wiki-content td>ul.inline-task-list>li,.wiki-content th>ul.inline-task-list>li{padding-left:22px;margin-left:-17px}ul.inline-task-list img{vertical-align:top}ul.inline-task-list .jira-issue,ul.inline-task-list .unknown-jira-issue{margin-top:-3px;margin-bottom:3px}ul.inline-task-list .jira-issue,ul.inline-task-list .unknown-jira-issue{margin-top:-3px;margin-bottom:3px}.wiki-content ul.inline-task-list>li.checked,.wiki-content ul.inline-task-list>li.checked>*,.wiki-content ul.inline-task-list>li.checked>*>a{color:#707070}.wiki-content ul.inline-task-list>li.checked>.current-user-mention,.wiki-content ul.inline-task-list>li.checked>*>a.current-user-mention{color:#ddd}.wiki-content ul.inline-task-list>li.checked>ul.inline-task-list{color:#333}.wiki-content ul.inline-task-list>li.checked>span[style],.wiki-content ul.inline-task-list>li.checked>*>span[style]{color:#707070!important}#inline-tasks-notice{position:fixed;display:block;top:0;right:0;left:0;width:30%;margin:15px auto auto auto;z-index:999;padding:5px;text-align:center}.task-blanket{display:none;background:#fff;height:100%;left:0;opacity:.5;position:absolute;top:0;width:100%;z-index:2500}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles', location = 'css/checkboxes.css' */
+ul.inline-task-list>li{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFklEQVQ4Ea2STa6CMBDHi3wlho1eAA7BjWTn/m1cv1vojbgDO5a6ISRgAm9+TaZpeERitImd6fw/Zio15sMVoK/rOp7n+TcIgpMcjxued+HehHspy/IZQUacZdm5KIp9mqacjRBWfcZxPDZNc+66Dvxnxx6GYYU4SRIrpoYJv2maXCSPosjkeb5HA89OIMAhjmMnBvAXRv6iERpq1oAEdxajv7rCEnMGVi2bdtOodT/6mDPwiz55K/++wfI/YDKtrU3zbwK9ikZEfr40cQYKbHVUnkb7kGTExzAM7lPqJ4Wk3Ymay2sEurNZAxFc27btARBDJPq5GsCBK+cbBvYKMsGl73sjb7wSwL4wwLXFtDREs4a/XfsDbdzII1bSkUsAAAAASUVORK5CYII=')}ul.inline-task-list>li.hover{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHUlEQVQ4Ea1TOw6CQBBdiDYbKLTjMsBdJKGwt6H2ECR6CG5ABUchNNoAjQk4b3U2mwU1RjeBmcz7zACDED8eB/o8z9cUjq7r7sZx3L7zJM6FOGfiZGma3lZP8jEIgn0URdL3fTFNk3Ac5T3z6rpuW5blvmkaYAcXd3JN4jiWnucpMWowwUXddEQupRRhGEpowFMTELABAMHSsetoBI02QAJ3HIwOwatHsDF+B0qMG3fjqAEjMTFtYBYN7sf0/wb2O8BkXFsaZzYBPwpHiMzcNtEGDHzqyDyOapFoxCttmP6U/ElB4u6InIOLlQauDAg4VVU19H0/2zyIYMgG4NR1PVAN/8NjEylmbduKoigSIqoNA7h0MC0aEpYt4V/X7uELxHiC9zrDAAAAAElFTkSuQmCC')}ul.inline-task-list>li.task-active{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABM0lEQVQ4EaWTMW6DUBBEP5g0hsYWx4BTxRKF+zSucwhLyUF8CNNwDJBTgYsIyL4fTUQwchJlpc+sd2dm1x/buX9GgP54PD6M4/i8Wq0eh2HY3vMMw/DS9/1rEASHoijeI8iI0zTdZ1m2tnDW9B5C6/vP4PV63VZVtW+ahtpTyNNcd3mer5MkcbaFP1EULeZxHDu4aNBqgw0NK/rDZE2HRDCdY1/RwbV8Q90bkCBmOnjPYG78zWC+gciaDhJC8i8DTQUxImSgnPXF8wR7LBpIKBRZ4mn9c5QYhmoKaSkXTujuxmDa/E1+Y6ALEmKiXDg19ga22lvXdZ4I6afTti0XfcHIG9jtvpzP544GYm57bqIanLIsO/4PGPi3YBsc6rp2p9NpZ0L/C6O5FGzLQDRL/T/XPgAfdbZH65QXWAAAAABJRU5ErkJggg==')}ul.inline-task-list>li.disabled{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDklEQVQ4Ea1STQqCYBBVExS3doQWLsTLZJ4i6CxBp7C8jLhw0QVE3YqJP80bmJBQS2rgY8aZ954z3zeK8qOp4IdhuPE876iq6p4+tx80i2EYojiOL0EQdCyQpunJsqyDbdt38o++7xVN0yZ1mqYxsizbVVV1dRznLCgfZNM0mQwmRKaOrusPYAniA8cC1LoNMhLfGLDgAKsLoes6DtH60gjvtZeACAEAEy/5sR/X5A7G9VUxd0DPsvjHKUVwYP/pAEqiiHiN8QjjS0EsL7EkJBwegQglNkyS4ucE2rY1qFagzgJEuOV5vqvrmkUgMHdABpa4EQR4hCRJLq7rKrTjWE/eMBRnrKT8FZyZ+rr0E7+JpvUEeFI6AAAAAElFTkSuQmCC')}ul.inline-task-list>li.checked{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABw0lEQVQ4EaVSTS9DURA9/UpaYaFUmoawYIlNN2yV4A8QHystku5tuvYvKiKRWKBpI/0BrLtHrQgrVPI0r61+mTPxXl6bxoJJ7rszc+ecOfPuBf5pLuILhYKv3W4fytpxu93B3zhbrVbJ5XIdyUpFo9G6l8UESyLp8Xj6hIAxJO7JI2fBZrOZZI3YgZtfKY77fL4+r9cLEgiR7vS7F89YSwyxqkD2QYJ7maXmp6Mqo1+v1wdZrwroUDIXO1q7U41pmshkLvDy8qwKiaHZbS0F3R1Z9Pb2imw2g3K5jLu7W4yPTzCtZhOwG61UekcwOKQ+P09Pj8jlsvj6qmFubh6xhUWYlYp93jHCzc01Tk6OtQvHYLfLy3MFryyvIhZbQqVa1REtBlsBE+FwWPP5/BUeHoooFu913vW1DUxOTqHi6NyTYGZ6VuWfnZ0q2O8PYGtzG6GREVRrVQvTsdsjMFuTOSORCBLxPYyNjmE3sYfhUIhX1gFyBkog837IE9U8i/sHBpBI7MMfCKDRaDjr1Wet3FaJgRJIIi1XZFok8lRhfBqwYicDc6yV3BHz+hNFQYqdDMOIC7O+MCfI6f+oTRPjzP/Z/wYlksK/5b/8XQAAAABJRU5ErkJggg==')}ul.inline-task-list>li.checked.hover{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB3klEQVQ4EaVTTUsbURQ9+RAmobMwGgmhYiFpdtq13TZK9Q+09GPVpCO47yZrf0SgUoSCCzVEij+gQv5CqhECSl3VTokNkxnz5T1XJyQ2FkovzLvv3XvPuee+mQH+0wLEF4vFiX6/vxEKhd71er3Y3ziDwaDd7XY3A4FAwbKsdpjFBJumuZ5KpaKGYfAMKRjL43lerF6vrzcaDeY/BLlKcS6TyUTFIB0gStRzf/eJRCJIp9NRYohVBeInCR5nvhp6GpWRRGySiyrghgk+7Oj7YTWO46BU2sX5+XdVSAzNV4Bw+GZ7tyOLLi5+oFwuodls4ujoG+bmHjGsNiBgN5pt/0QsNqV7Lmdnp9jfL+PqysPi4lNkny3BabUG+ZERDg+/Ymvrk3bhGOy2t7ej4JXnq8hml9FyXR3RZxgoYCCRSGj84OALTk5qqNWOdd6XL17JzT9Ga6jzWIKF+Scqf3v7s4INI4I3r98iPjMD13N9zIgfjMCoJ3Mmk0nkcxZmH87ifd7CdDyOdrs9Aho+KIHM+8uV2WgsfmCayOfXYMj77nQ6w/W6Z61cus2DEsir+1itVh2fRL51XP6+hPwXY8Gsldwmk/4lFmzbRqVSyQmZfmF/IG8DVMuGcizcV/NP8WvS97w1Ika7wgAAAABJRU5ErkJggg==')}ul.inline-task-list>li.checked.task-active{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB4klEQVQ4EaVTPU8bQRB9/sQ+KuAMxsIVlNCTDmQhovwBEAkVB1fQ07jOj7AEDQIlRQTCivgFEYV/Ab5cEyQXYAlyRD7f2bLNvhG3siOBhBhpd8az772Z2VsD77QY+ZVKJTUYDL7G4/Ed5Sdf04zFYvf9fv9I+bJt290kwSQbhrFfKBSMdDotfAUA1/O59t1ud7LRaOz7vs/cQZy7AlrFYlFpGEilUqAIfTKZlMU4WtlsFsSSQ650oPwEyayoxhA/XJ2xapudyiKGHG4SSaCSrMhKiURipDrzYRji8vIn7u5u5YwcWtSBtE0i7bmCvoNms4lq9RytVguu62Jurig4blqAZBI97y+mpkwBsPWbmz+KfIFOJ8Ty8gesrpTw+O9RC4yMcHX1Cycnx6jXr0WM/uzsh5A/rn9CqbQGv+3rDkc64I/8zKwoc1bX/Q3Hqct9bG5sYX5hAe12W86HNz0Ck4uLSzBNE9++nwo5k8niy+dt5KanEQTBME/HegRmgjDATD6PXcuWi9rbtWHmcmqEjhD4Gf+3SOCBFQgg2Bgfh2XtYSyTgXp5+vtH74BYdeH3FIsEDh3H8SMRkjzPQ6/X0+ToIRFDLP8PFIjuoExCrVazVE5eGA9fsAeVP1Sr/ML529JP8ejXxidvyuUAAAAASUVORK5CYII=')}ul.inline-task-list>li.checked.disabled{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB1ElEQVQ4EaVTbUvCUBT2zi0hYYwtI6jQXghrEZbUlz4ohfXB6h/046KfUP+gFyiUDDQiEApfZmsmzKbN3OycS7diGRUduJydc57nuc8u9/p8/wyC/F6vx2Wz2V3IW1AO/aBpEEIO4/H4PmSXRzCSodjhOO4GcsF1XR9899WBecBxnB3g4HyPoqC5LQjCjd/vt5HI8zwVwG/vAqyNWOSgAnUAIAUaeVjY+03gRgoC3316d/LWlmUFjk+PFnVdl3DGgv0Ctc2ss8xEGo1G8Oz8bMlqWWK1Wh3FPnNLBRgQs2mag5hRBJdh1KRMNrPoOs7A9MRkI5lM3rMN0AU9A2bn8vJi8q5SGluYU68jkSm9eFscLlwVopxLiKrOP6iqWmu1Wo8M/0VAlCWXK5VJPn81q2n6UL1uhPwc6cVXlmvh8bAGZPMz+YtAdDpqSKIknJyejCCZCJyTWE1oiqLUbNu2vGSsP44TCgA9hZRQObWWKoui2N5c36jIslz5jowC9Azg5tVhBeDw7G632w4Gg5V0eusZLBudTucFgZ8DsXDtDexRB1AcAHAGB9gEkU6z2dTgyvYlv2EPEfv+mHK5HL6HbXBBbxgO+wW6xQ1jsRh9TP0wf+q9ApcA1as66twWAAAAAElFTkSuQmCC')}.content-preview ul.inline-task-list>li{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDklEQVQ4Ea1STQqCYBBVExS3doQWLsTLZJ4i6CxBp7C8jLhw0QVE3YqJP80bmJBQS2rgY8aZ954z3zeK8qOp4IdhuPE876iq6p4+tx80i2EYojiOL0EQdCyQpunJsqyDbdt38o++7xVN0yZ1mqYxsizbVVV1dRznLCgfZNM0mQwmRKaOrusPYAniA8cC1LoNMhLfGLDgAKsLoes6DtH60gjvtZeACAEAEy/5sR/X5A7G9VUxd0DPsvjHKUVwYP/pAEqiiHiN8QjjS0EsL7EkJBwegQglNkyS4ucE2rY1qFagzgJEuOV5vqvrmkUgMHdABpa4EQR4hCRJLq7rKrTjWE/eMBRnrKT8FZyZ+rr0E7+JpvUEeFI6AAAAAElFTkSuQmCC')}.content-preview ul.inline-task-list>li.checked{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB1ElEQVQ4EaVTbUvCUBT2zi0hYYwtI6jQXghrEZbUlz4ohfXB6h/046KfUP+gFyiUDDQiEApfZmsmzKbN3OycS7diGRUduJydc57nuc8u9/p8/wyC/F6vx2Wz2V3IW1AO/aBpEEIO4/H4PmSXRzCSodjhOO4GcsF1XR9899WBecBxnB3g4HyPoqC5LQjCjd/vt5HI8zwVwG/vAqyNWOSgAnUAIAUaeVjY+03gRgoC3316d/LWlmUFjk+PFnVdl3DGgv0Ctc2ss8xEGo1G8Oz8bMlqWWK1Wh3FPnNLBRgQs2mag5hRBJdh1KRMNrPoOs7A9MRkI5lM3rMN0AU9A2bn8vJi8q5SGluYU68jkSm9eFscLlwVopxLiKrOP6iqWmu1Wo8M/0VAlCWXK5VJPn81q2n6UL1uhPwc6cVXlmvh8bAGZPMz+YtAdDpqSKIknJyejCCZCJyTWE1oiqLUbNu2vGSsP44TCgA9hZRQObWWKoui2N5c36jIslz5jowC9Azg5tVhBeDw7G632w4Gg5V0eusZLBudTucFgZ8DsXDtDexRB1AcAHAGB9gEkU6z2dTgyvYlv2EPEfv+mHK5HL6HbXBBbxgO+wW6xQ1jsRh9TP0wf+q9ApcA1as66twWAAAAAElFTkSuQmCC')}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles', location = 'css/diff.css' */
+.wiki-content span.inline-task{display:inline-block;width:16px;height:16px;margin-right:5px;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAOVBMVEX////j4+Pd3d3U1NTS0tLR0dH////7+/v5+fn39/fz8/Px8fHt7e3o6Ojl5eXS0tLPz8/MzMzJycnrmCZ8AAAAE3RSTlMAIiLu7u7/////////////////W597/gAAAAlwSFlzAAALEgAACxIB0t1+/AAAABV0RVh0Q3JlYXRpb24gVGltZQAxNy81LzEycuYJBAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAABQSURBVBiVjc9JEoAgDERRIEwGRcz9D2sJneys4u/yVh3nNvIkiPwEulv+Km3QBOGMTllQFKqC9QfVAhwWgPVmwMWoL4gD0p84ISSdnsLOqy/vTwW50dzZXwAAAABJRU5ErkJggg==')}.wiki-content span.inline-task.checked{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAtFBMVEX////KzM+5wMYAAAAWFhYeHh4aGho4ODi0tbatsbOlpqcHBwft8vbr8fbp7/Pn7fPk7PLh6vHe5+/a5e3W4uzb4ebT4OrT3+jP3enO3OfW2dzP1tvL1dzN1d3L09nIz9XKzM/DzdXDzNS/ydK9xs2wucCur7Cpq6ynp6elpqecnJx8gIN0eHtuc3ZtcXRqbW9mZmZhZGZcX2JKTE1GSEkzMzMoKioaGhoZGhsWFhYHBwgAAADE9dcjAAAAPHRSTlMAIiJVmbu7zO7u7u7///////////////////////////////////////////////////////////////+FOGbiAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFXRFWHRDcmVhdGlvbiBUaW1lADE3LzUvMTJy5gkEAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAI9JREFUGJWFz8cSgjAQgGHERiwxTVFQECwk9rbW938v0876HTYz/+weEgS/1dt61CLpdRrdpg7ROsE9Dc9Pj5ZZU0nfGh5fYO/UABvp9g4bFwj5XNJ89wYiXaD0DPsDQEZdkIzNrvCEjDG/wTmf3mCpH+VCLIRYrPSIfShHXuECqorJ2CgrZEOIlIfCP1+1vgduEOsH8FmwAAAAAElFTkSuQmCC')}.wiki-content ul.inline-task-list.diff-inline-task-list li{background-image:none;padding-left:0}.wiki-content .diff-inline-task-overlay{display:inline-block;text-align:center;height:1.5em;padding:5px 0 1px 5px;margin-left:-5px;margin-right:5px}
+/* module-key = 'com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css', location = '/css/editor-plugin/date-autocomplete.css' */
+.date-autocomplete #autocomplete-search-text,.date-autocomplete #autocomplete-search-text span{color:#999}.date-autocomplete.hasDateInserted #autocomplete-search-text,.date-autocomplete.hasDateInserted #autocomplete-search-text span{color:#333}.wiki-content time{padding:0;margin:0 1px 0 1px;background-color:#eee;border:solid 1px #ddd;border-radius:3px;white-space:nowrap;resize:none;outline:0 none;-webkit-touch-callout:all;-webkit-user-select:all;-khtml-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all}.wiki-content time:focus{outline:0 none}.wiki-content time:before{content:"";width:16px;height:16px;padding:0;margin:0 2px 0 0;display:inline-block;vertical-align:middle;background-repeat:no-repeat;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvUlEQVQ4Eb2SUQoCIRCGVUTPENR9uklPHqGnbiAIuo8dor1D1wjqEqLNPIwsMa4UlbCM/v83/4isEL9YMcbE5XK6JDCEsFdKTfDtSOvVUsot53xwzs2aIK31TPtRxSHGmAtw7QIipVRHjUufeLUUP9mvBtCU18oOIog1GZF49gZk9iqTJ777iG9NputA0917v6XzWkUOeWTaG9Raz9baaRSCPnLIY0D7E6WURxBPYF4hfYNmZz2wGfmO/2f5CTREYDTdjgwiAAAAAElFTkSuQmCC");position:relative;top:-1px}
+/* module-key = 'com.atlassian.confluence.plugins.drag-and-drop:drag-and-drop-overlay', location = 'css/drag-and-drop-overlay.less' */
+#dragOverlay{position:fixed;width:100%;height:100%;z-index:2000;top:0;left:0}#dragOverlay.file-library-dialog{position:absolute}#dragOverlay .overlay-base{position:absolute;top:0;bottom:0;left:0;right:0;width:auto;height:auto;box-sizing:border-box}#dragOverlay .overlay-blanket{position:absolute;top:0;bottom:0;left:0;right:0;width:auto;height:auto;box-sizing:border-box;background:#fff;opacity:0.8}#dragOverlay .overlay-drop-zone{position:absolute;top:0;bottom:0;left:0;right:0;width:auto;height:auto;box-sizing:border-box;margin:8px;border:3px dashed #f79232;border-radius:5px;z-index:2001}#dragOverlay.in-comment .overlay-drop-zone{margin:0}#dragOverlay .overlay-center{position:absolute;top:50%;left:50%;margin-top:-25px;margin-left:-181px;box-sizing:border-box;border:2px solid #f79232;border-radius:3px;height:50px;line-height:50px;padding:0 48px;box-shadow:0 1px 3px rgba(0,0,0,0.2);text-align:center;vertical-align:middle;background-color:#fff}#dragOverlay .overlay-center p{color:#333;font-size:14px;font-family:Arial,sans-serif;height:100%;line-height:50px;vertical-align:middle}
