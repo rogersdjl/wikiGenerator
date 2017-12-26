@@ -1,4 +1,4 @@
-package com.rrc.finance;
+package com.rrc.finance.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

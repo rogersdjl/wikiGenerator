@@ -1,4 +1,4 @@
-package com.rrc.finance;
+package com.rrc.finance.http;
 
 import java.util.HashMap;
 import java.util.Map;

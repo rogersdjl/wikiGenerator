@@ -1,14 +1,15 @@
-package com.rrc.finance;
+package com.rrc.finance.wiki;
 
 import java.util.List;
 
 import com.google.common.collect.Lists;
 /**
- *  
+ *  用于记录整个http请求流程所有的参数，作为wiki的参数以便生成wiki。
+ *  包括url,method,postJson,getParam,status,result。用于生成wiki
  * @author doujinlong
  *
  */
-public class WikiResult {
+public class WikiParam {
 
 	private String url;
 	private String method;

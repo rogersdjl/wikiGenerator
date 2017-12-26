@@ -1,4 +1,4 @@
-package com.rrc.finance;
+package com.rrc.finance.wiki;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -11,8 +11,14 @@ import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import com.rrc.finance.http.HttpMethod;
+import com.rrc.finance.http.HttpResult;
+import com.rrc.finance.utils.FileCopyUtils;
+import com.rrc.finance.utils.HttpUtils;
+import com.rrc.finance.utils.JsonUtils;
 /**
- * wiki生成器
+ * wiki生成工具
  * @author doujinlong
  *
  */
@@ -35,15 +41,15 @@ public abstract class WikiGenerator {
 				"    <body class=\"mceContentBody aui-theme-default wiki-content fullsize\">"+
 				"%s</body></html>";
 	
-	private final static String WIKI_FILE_PATH = "/com/rrc/finance/wiki";
+	private final static String WIKI_FILE_PATH = "/com/rrc/finance/resources";
 	
-	public static WikiResult httpRequest(HttpMethod method, String url, String cookie, String json) throws JSONException, Exception {
+	public static WikiParam httpRequest(HttpMethod method, String url, String cookie, String json) throws JSONException, Exception {
 		if (method == null || StringUtils.isBlank(url)) {
-			WikiResult wikiResult = new WikiResult();
+			WikiParam wikiResult = new WikiParam();
 			wikiResult.setResult("url或请求类型参数为空，不能进行请求");
 			return null;
 		}
-		WikiResult result = new WikiResult();
+		WikiParam result = new WikiParam();
 		result.setMethod(method.toString());
 		final int index = url.indexOf('?');
 		result.setUrl(index>0?url.substring(0,index):url);
@@ -56,8 +62,8 @@ public abstract class WikiGenerator {
 					result.getParams().add(each);
 				}
 			}
-			HttpResult ret = HttpUtil.getResponse(url, cookie);
-			result.setResult(JsonUtil.formatJson(ret.getResult()));
+			HttpResult ret = HttpUtils.getResponse(url, cookie);
+			result.setResult(JsonUtils.formatJson(ret.getResult()));
 			result.setStatus(ret.getStatusCode());
 			return result;
 		}else if (method.equals(HttpMethod.POST)||method.equals(HttpMethod.PUT)) {
@@ -69,16 +75,25 @@ public abstract class WikiGenerator {
 					result.getParams().add(each);
 				}
 			}
-			result.getParams().addAll(JsonUtil.getKeys(new JSONObject(json)));
-			HttpResult ret = HttpUtil.post(url, json, cookie);
-			result.setResult(JsonUtil.formatJson(ret.getResult()));
+			result.getParams().addAll(JsonUtils.getKeys(new JSONObject(json)));
+			HttpResult ret = HttpUtils.post(url, json, cookie);
+			result.setResult(JsonUtils.formatJson(ret.getResult()));
 			result.setStatus(ret.getStatusCode());
 			return result;
 		}
 		return null;
 	}
-	
-	public static String generateWiki(String wiki){
+	/**
+	 * 用wiki内容进行拼装
+	 * @param wiki
+	 * @return
+	 */
+	public static String generateWiki(List<WikiParam> param){
+		String wiki = "";
+		//每一个请求都增加进去
+		for (WikiParam wikiParam : param) {
+			wiki+=assembleWiki(wikiParam);
+		}
 		return String.format(WIKI_PATTERN, wiki);
 	}
 	/**
@@ -86,7 +101,7 @@ public abstract class WikiGenerator {
 	 * @param result
 	 * @return
 	 */
-	public static String assembleWiki(WikiResult result){
+	private static String assembleWiki(WikiParam result){
 		String method = result.getMethod();
 		String url = result.getUrl();
 		String ret = result.getResult();

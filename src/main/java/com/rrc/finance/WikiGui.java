@@ -22,18 +22,25 @@ import javax.swing.SpringLayout;
 import org.apache.commons.lang3.StringUtils;
 
 import com.google.common.collect.Lists;
-
+import com.rrc.finance.http.HttpMethod;
+import com.rrc.finance.wiki.WikiGenerator;
+import com.rrc.finance.wiki.WikiParam;
+/**
+ * wiki界面类，用eclipse上的swing插件生成。部分修改。
+ * @author doujinlong
+ *
+ */
 public class WikiGui {
 
 	private List<String> history = Lists.newArrayList();
-	private List<WikiResult> wikiResults = Lists.newArrayList();
+	private List<WikiParam> wikiResults = Lists.newArrayList();
 	private JFrame frame;
 	private JTextField cookie;
 	private JTextField url;
 	private JTextArea result;
 	private Color temp;
 	/**
-	 * Launch the application.
+	 * 启动界面
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -154,10 +161,11 @@ public class WikiGui {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				int []is= historyRecord.getSelectedIndices();
-				String wiki="";
+				List<WikiParam> wiki = Lists.newArrayList();
 				for (int i : is) {
-					if (wikiResults.get(i).getStatus()==200||wikiResults.get(i).getStatus()==201) {
-						wiki+=WikiGenerator.assembleWiki(wikiResults.get(i));
+					if (wikiResults.get(i).getStatus().intValue()==200
+							||wikiResults.get(i).getStatus().intValue()==201) {
+						wiki.add(wikiResults.get(i));
 					}
 				}
 				String ret = WikiGenerator.generateWiki(wiki);
@@ -188,7 +196,7 @@ public class WikiGui {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				result.setBackground(temp!=null?temp:result.getBackground());
-				WikiResult ret = null;
+				WikiParam ret = null;
 				try {
 					ret = WikiGenerator.httpRequest(HttpMethod.resolve((String)method.getSelectedItem()), url.getText(), cookie.getText(), json.getText());
 					result.setText(ret.getResult());

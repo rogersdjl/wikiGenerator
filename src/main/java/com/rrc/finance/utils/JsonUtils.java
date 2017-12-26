@@ -1,4 +1,4 @@
-package com.rrc.finance;
+package com.rrc.finance.utils;
 
 import java.util.Iterator;
 import java.util.List;
@@ -13,7 +13,7 @@ import com.google.common.collect.Lists;
  * @author doujinlong
  *
  */
-public class JsonUtil {
+public class JsonUtils {
 
 	public static int testIsArrayORObject(String sJSON) {
 		/*

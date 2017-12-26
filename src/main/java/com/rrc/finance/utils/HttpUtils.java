@@ -1,13 +1,14 @@
-package com.rrc.finance;
+package com.rrc.finance.utils;
 
 import com.github.kevinsawicki.http.HttpRequest;
 import com.google.common.collect.ImmutableMap;
+import com.rrc.finance.http.HttpResult;
 /**
  * 简单的http请求，带着cookie一起访问，get/post/put
  * @author doujinlong
  *
  */
-public class HttpUtil {
+public class HttpUtils {
 
 
 	public static HttpResult getResponse(String url, String cookie) {
