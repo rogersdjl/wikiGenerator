@@ -162,6 +162,10 @@ public class WikiGui {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				int []is= historyRecord.getSelectedIndices();
+				if (is==null || is.length<=0) {
+					JOptionPane.showMessageDialog(frame, "请选择至少一条历史记录来生成wiki","提示",JOptionPane.WARNING_MESSAGE);
+					return;
+				}
 				List<WikiParam> wiki = Lists.newArrayList();
 				for (int i : is) {
 					if (wikiResults.get(i).getStatus().intValue()==200
