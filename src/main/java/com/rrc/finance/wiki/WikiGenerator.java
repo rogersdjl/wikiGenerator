@@ -51,7 +51,7 @@ public abstract class WikiGenerator {
 		}
 		WikiParam result = new WikiParam();
 		result.setMethod(method.toString());
-		result.setPostJson(json);
+		result.setPostJson(JsonUtils.formatJson(json));
 		final int index = url.indexOf('?');
 		result.setUrl(index>0?url.substring(0,index):url);
 		if (method.equals(HttpMethod.GET)) {

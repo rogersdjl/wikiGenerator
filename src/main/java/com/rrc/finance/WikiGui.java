@@ -23,6 +23,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.google.common.collect.Lists;
 import com.rrc.finance.http.HttpMethod;
+import com.rrc.finance.utils.JsonUtils;
 import com.rrc.finance.wiki.WikiGenerator;
 import com.rrc.finance.wiki.WikiParam;
 /**
@@ -192,6 +193,20 @@ public class WikiGui {
 			public void focusGained(FocusEvent e) {
 			}
 		});
+		json.addFocusListener(new FocusListener() {
+			
+			@Override
+			public void focusLost(FocusEvent e) {
+				json.setText(JsonUtils.formatJson(json.getText()));
+			}
+			
+			@Override
+			public void focusGained(FocusEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		
 		button.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

@@ -3,6 +3,7 @@ package com.rrc.finance.utils;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -81,8 +82,10 @@ public class JsonUtils {
 	 * @return 格式化的JSON字符串。
 	 */
 	public static String formatJson(String json) {
+		if (StringUtils.isBlank(json)) {
+			return "";
+		}
 		StringBuffer result = new StringBuffer();
-
 		int length = json.length();
 		int number = 0;
 		char key = 0;
