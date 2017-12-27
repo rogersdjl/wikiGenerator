@@ -30,12 +30,12 @@ public abstract class WikiGenerator {
 	private final static String WIKI_PATTERN="<!DOCTYPE html>"+
 				"<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">"+
 				"        <title>View Source</title>"+
-				"        <link type=\"text/css\" rel=\"stylesheet\" href=\"./wikis/batch.css\" media=\"all\">"+
-				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wikis/batch(1).css\" media=\"print\">"+
-				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wikis/batch(2).css\" media=\"all\">"+
-				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wikis/batch(3).css\" media=\"all\">"+
-				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wikis/colors.css\" media=\"all\">"+
-				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wikis/default-theme.css\" media=\"all\">"+
+				"        <link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/batch.css\" media=\"all\">"+
+				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/batch(1).css\" media=\"print\">"+
+				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/batch(2).css\" media=\"all\">"+
+				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/batch(3).css\" media=\"all\">"+
+				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/colors.css\" media=\"all\">"+
+				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/default-theme.css\" media=\"all\">"+
 				"    </head>"+
 				"    <body class=\"mceContentBody aui-theme-default wiki-content fullsize\">"+
 				"%s</body></html>";
