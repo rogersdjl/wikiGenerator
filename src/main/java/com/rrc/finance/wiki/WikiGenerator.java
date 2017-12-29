@@ -37,8 +37,8 @@ public abstract class WikiGenerator {
 				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/colors.css\" media=\"all\">"+
 				"<link type=\"text/css\" rel=\"stylesheet\" href=\"./wiki/default-theme.css\" media=\"all\">"+
 				"    </head>"+
-				"    <body class=\"mceContentBody aui-theme-default wiki-content fullsize\">"+
-				"%s</body></html>";
+				"    <body contenteditable=\"true\" class=\"mceContentBody aui-theme-default wiki-content fullsize\">"+
+				"%s</body><script type=\"text/javascript\">window.onload=function(){alert(\"此页面可直接编辑，需要填写字段名称和是否必填（默认Y），编辑完成可直接复制粘帖到wiki页~\");}</script></html>";
 	
 	private final static String WIKI_FILE_PATH = "/com/rrc/finance/resources";
 	
@@ -80,6 +80,20 @@ public abstract class WikiGenerator {
 			result.setResult(JsonUtils.formatJson(ret.getResult()));
 			result.setStatus(ret.getStatusCode());
 			return result;
+		}else if (method.equals(HttpMethod.GET_NO_PARAM)) {
+			if (url.lastIndexOf('?') >= 0) {
+				String params = url.substring(url.lastIndexOf('?') + 1, url.length());
+				String[] param = params.split("&");
+				for (String string : param) {
+					String each = string.split("=")[0];
+					result.getParams().add(each);
+				}
+			}
+			String reqUrl = result.getUrl();
+			HttpResult ret = HttpUtils.getResponse(reqUrl, cookie);
+			result.setResult(JsonUtils.formatJson(ret.getResult()));
+			result.setStatus(ret.getStatusCode());
+			return result;
 		}
 		return null;
 	}
@@ -109,10 +123,11 @@ public abstract class WikiGenerator {
 		String param = "";
 		List<String> params = result.getParams();
 		for (String wikiHttpParam : params) {
-			param+="<tr><td class=\"confluenceTd\">"+wikiHttpParam+"</td><td class=\"confluenceTd\">字段名称</td><td class=\"confluenceTd\">Y/N</td><td class=\"confluenceTd\">备注</td></tr>";
+			param+="<tr><td class=\"confluenceTd\">"+wikiHttpParam+"</td><td class=\"confluenceTd\">fiedlName</td><td class=\"confluenceTd\">"
+					+"Y</td><td class=\"confluenceTd\">备注</td></tr>";
 		}
-		return "<p>&nbsp;</p><p><span style=\"font-size: 24.0px;\">"
-				+ "1，接口名称2</span></p><p><strong>"
+		return "<p>&nbsp;</p><p><h1><span>"
+				+ "1，接口名称2</h1></span></p><p><strong>"
 				+ "请求类型："+ method+"&nbsp; &nbsp; &nbsp;"
 				+ "接口地址："+url+"</strong></p><p"
 				+ ">请求参数："

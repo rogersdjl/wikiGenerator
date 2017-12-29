@@ -4,6 +4,8 @@ import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.List;
@@ -73,7 +75,7 @@ public class WikiGui {
 		SpringLayout springLayout = new SpringLayout();
 		frame.getContentPane().setLayout(springLayout);
 		
-		JComboBox method = new JComboBox(new String[]{"GET","PUT","POST"});
+		JComboBox method = new JComboBox(new String[]{"GET","PUT","POST","GET_NO_PARAM"});
 		springLayout.putConstraint(SpringLayout.WEST, method, 99, SpringLayout.WEST, frame.getContentPane());
 		frame.getContentPane().add(method);
 		
@@ -153,8 +155,8 @@ public class WikiGui {
 		frame.getContentPane().add(scrollPane);
 		
 		JLabel label_4 = new JLabel("返回:");
-		springLayout.putConstraint(SpringLayout.NORTH, label_4, 0, SpringLayout.NORTH, result);
-		springLayout.putConstraint(SpringLayout.WEST, label_4, 0, SpringLayout.WEST, label_1);
+		springLayout.putConstraint(SpringLayout.NORTH, label_4, 0, SpringLayout.NORTH, scrollPane);
+		springLayout.putConstraint(SpringLayout.WEST, label_4, 0, SpringLayout.WEST, lblNewLabel);
 		frame.getContentPane().add(label_4);
 		frame.getContentPane().add(btnwiki);
 		
@@ -202,6 +204,22 @@ public class WikiGui {
 			@Override
 			public void focusLost(FocusEvent e) {
 				json.setText(JsonUtils.formatJson(json.getText()));
+			}
+			
+			@Override
+			public void focusGained(FocusEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		
+		method.addFocusListener(new FocusListener() {
+			
+			@Override
+			public void focusLost(FocusEvent e) {
+				if (method.getSelectedItem().equals("GET")) {
+					JOptionPane.showMessageDialog(frame, "这个GET会带着参数请求，生成文档时返回值需要自己修改，建议用GET_NO_PARAM,GET_NO_PARAM这个选项可以用原始数据请求");
+				}
 			}
 			
 			@Override

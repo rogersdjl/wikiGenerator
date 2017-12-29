@@ -6,7 +6,7 @@ import java.util.Map;
 
 public enum HttpMethod {
 
-	GET,POST,PUT;
+	GET_NO_PARAM,GET,POST,PUT;
 
 
 	private static final Map<String, HttpMethod> mappings = new HashMap<String, HttpMethod>(3);

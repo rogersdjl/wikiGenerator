@@ -28,6 +28,9 @@ public class WikiParam {
 		return method;
 	}
 	public void setMethod(String method) {
+		if (method.equals("GET_NO_PARAM")) {
+			method="GET";
+		}
 		this.method = method;
 	}
 	public String getResult() {
